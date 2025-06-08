@@ -5,18 +5,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap');
 
-@font-face {
-    font-family: 'FE 5 Cent';
-    src: url('FE5Cent-Regular.eot');
-    src: local('FE 5 Cent'), local('FE5Cent-Regular'),
-        url('FE5Cent-Regular.eot?#iefix') format('embedded-opentype'),
-        url('FE5Cent-Regular.woff2') format('woff2'),
-        url('FE5Cent-Regular.woff') format('woff'),
-        url('FE5Cent-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
 @layer base {
   :root {
     --background: 0 0% 4%;
@@ -75,7 +63,7 @@
   }
   
   .font-fe5cent {
-    font-family: 'Orbitron', monospace;
+    font-family: '"Press Start 2P"', monospace;
     font-weight: 900;
     letter-spacing: 0.1em;
     text-transform: uppercase;
