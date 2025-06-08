@@ -1,3 +1,4 @@
+
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Eye, Settings, Circle, SlidersHorizontal } from 'lucide-react';
 
@@ -33,7 +34,7 @@ const Features = () => {
     <section id="features" className="py-20 relative">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gradient">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gradient font-fe5cent">
             Premium Features
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
@@ -52,7 +53,7 @@ const Features = () => {
                 <div className="mx-auto w-16 h-16 bg-primary/10 rounded-lg flex items-center justify-center mb-4 pink-glow">
                   <feature.icon className="w-8 h-8 text-primary" />
                 </div>
-                <CardTitle className="text-2xl font-bold text-gradient">
+                <CardTitle className="text-2xl font-bold text-gradient font-fe5cent">
                   {feature.title}
                 </CardTitle>
               </CardHeader>

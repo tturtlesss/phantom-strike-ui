@@ -20,8 +20,15 @@ const Header = () => {
     }`}>
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="text-2xl font-bold text-gradient">
-            RobloxPro
+          <div className="flex items-center space-x-3">
+            <img 
+              src="/lovable-uploads/419f8128-6973-4851-8401-9f758250d2d5.png" 
+              alt="Matcha Logo" 
+              className="w-10 h-10"
+            />
+            <div className="text-2xl font-bold text-gradient font-fe5cent">
+              Matcha
+            </div>
           </div>
           
           <nav className="hidden md:flex items-center space-x-8">

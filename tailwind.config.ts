@@ -61,6 +61,7 @@ export default {
 			},
 			fontFamily: {
 				space: ['Space Grotesk', 'sans-serif'],
+				fe5cent: ['Orbitron', 'monospace'],
 			},
 			keyframes: {
 				'accordion-down': {

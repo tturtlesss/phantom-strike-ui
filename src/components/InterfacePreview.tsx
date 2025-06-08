@@ -7,17 +7,17 @@ const screenshots = [
   {
     title: "Main Interface",
     description: "Clean, intuitive control panel with all features accessible",
-    image: "/lovable-uploads/2e2924fb-4b98-4fc3-8670-1891419bbee2.png"
+    image: "/lovable-uploads/1a769542-eb7a-4d41-a25c-7d4e0e8b8c05.png"
   },
   {
     title: "Aimbot Settings",
     description: "Advanced configuration options for precision targeting",
-    image: "/lovable-uploads/2e2924fb-4b98-4fc3-8670-1891419bbee2.png"
+    image: "/lovable-uploads/1a769542-eb7a-4d41-a25c-7d4e0e8b8c05.png"
   },
   {
     title: "Visual Settings",
     description: "Customize FOV, smoothing, and visual indicators",
-    image: "/lovable-uploads/2e2924fb-4b98-4fc3-8670-1891419bbee2.png"
+    image: "/lovable-uploads/1a769542-eb7a-4d41-a25c-7d4e0e8b8c05.png"
   }
 ];
 
@@ -28,7 +28,7 @@ const InterfacePreview = () => {
     <section id="preview" className="py-20 relative">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gradient">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gradient font-fe5cent">
             Interface Preview
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
@@ -42,13 +42,13 @@ const InterfacePreview = () => {
               <img 
                 src={screenshots[activeIndex].image}
                 alt={screenshots[activeIndex].title}
-                className="w-full h-full object-cover transition-all duration-500"
+                className="w-full h-full object-contain transition-all duration-500"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background/50 to-transparent" />
             </div>
             
             <div className="p-8">
-              <h3 className="text-2xl font-bold text-gradient mb-2">
+              <h3 className="text-2xl font-bold text-gradient mb-2 font-fe5cent">
                 {screenshots[activeIndex].title}
               </h3>
               <p className="text-muted-foreground mb-6">
@@ -62,7 +62,7 @@ const InterfacePreview = () => {
                     variant={activeIndex === index ? "default" : "outline"}
                     size="sm"
                     onClick={() => setActiveIndex(index)}
-                    className={`transition-all duration-300 ${
+                    className={`transition-all duration-300 font-fe5cent ${
                       activeIndex === index 
                         ? 'bg-primary text-primary-foreground pink-glow' 
                         : 'border-primary/30 text-primary hover:bg-primary/10'

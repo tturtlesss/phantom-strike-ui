@@ -22,11 +22,20 @@ const Hero = () => {
 
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="max-w-4xl mx-auto animate-fade-in">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 text-gradient leading-tight">
-            RobloxPro
+          {/* Banner Image */}
+          <div className="mb-8">
+            <img 
+              src="/lovable-uploads/c3d52f35-c7d0-4f77-b22b-3965c5546fb2.png" 
+              alt="Matcha - The Most Advanced External" 
+              className="mx-auto max-w-2xl w-full h-auto"
+            />
+          </div>
+          
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 text-gradient leading-tight font-fe5cent">
+            Matcha
           </h1>
-          <p className="text-xl md:text-2xl text-muted-foreground mb-4 font-light">
-            Premium Roblox Enhancement Tool
+          <p className="text-xl md:text-2xl text-muted-foreground mb-4 font-light font-fe5cent">
+            The Most Advanced External
           </p>
           <p className="text-lg md:text-xl text-foreground/80 mb-12 max-w-2xl mx-auto leading-relaxed">
             Experience the ultimate gaming advantage with advanced aimbot, silent aim, 
@@ -36,14 +45,14 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
             <Button 
               size="lg" 
-              className="pink-glow bg-gradient-to-r from-primary to-primary/80 hover:from-primary/90 hover:to-primary/70 text-primary-foreground font-semibold text-lg px-8 py-6"
+              className="pink-glow bg-gradient-to-r from-primary to-primary/80 hover:from-primary/90 hover:to-primary/70 text-primary-foreground font-semibold text-lg px-8 py-6 font-fe5cent"
             >
               Download Now - $29.99
             </Button>
             <Button 
               variant="outline" 
               size="lg"
-              className="border-primary/50 text-primary hover:bg-primary/10 font-semibold text-lg px-8 py-6"
+              className="border-primary/50 text-primary hover:bg-primary/10 font-semibold text-lg px-8 py-6 font-fe5cent"
             >
               View Features
             </Button>
