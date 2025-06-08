@@ -1,6 +1,5 @@
-
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Eye, Settings, Circle, SliderHorizontal } from 'lucide-react';
+import { Eye, Settings, Circle, SlidersHorizontal } from 'lucide-react';
 
 const features = [
   {
@@ -22,7 +21,7 @@ const features = [
     details: ["Head Targeting", "Body Targeting", "Closest Part", "Custom Priority"]
   },
   {
-    icon: SliderHorizontal,
+    icon: SlidersHorizontal,
     title: "FOV Customization",
     description: "Adjustable field of view settings for optimal targeting range and performance.",
     details: ["Dynamic Range", "Visual Indicators", "Size Control", "Shape Options"]
