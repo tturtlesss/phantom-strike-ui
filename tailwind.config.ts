@@ -60,7 +60,7 @@ export default {
 			},
 			fontFamily: {
 				space: ['Space Grotesk', 'sans-serif'],
-				fe5cent: ['FE 5 Cent', 'Orbitron', 'monospace'],
+				fe5cent: ['"Press Start 2P"', 'monospace'],
 			},
 			keyframes: {
 				'accordion-down': {
