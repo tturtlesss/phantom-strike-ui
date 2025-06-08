@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +60,7 @@ export default {
 			},
 			fontFamily: {
 				space: ['Space Grotesk', 'sans-serif'],
-				fe5cent: ['Orbitron', 'monospace'],
+				fe5cent: ['FE 5 Cent', 'Orbitron', 'monospace'],
 			},
 			keyframes: {
 				'accordion-down': {
